@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, Image, TextInput } from 'react-native';
 import { Search, Heart, MapPin, Calendar, Trophy, BookOpen, Users, Star } from 'lucide-react-native';
 import { cssInterop } from 'nativewind';
+import { useRouter } from 'expo-router';
 import { LinearGradient } from 'expo-linear-gradient';
 
 // Configure LinearGradient for NativeWind
@@ -10,6 +11,7 @@ cssInterop(LinearGradient, {
 });
 
 export default function HomeScreen() {
+  const router = useRouter();
   const [searchQuery, setSearchQuery] = useState('');
 
   // Sample hero data
@@ -87,7 +89,10 @@ export default function HomeScreen() {
         {/* Hero of the Day */}
         <View className="mb-8">
           <Text className="text-gray-800 text-xl font-bold mb-4">Hero of the Day</Text>
-          <TouchableOpacity className="bg-white rounded-2xl shadow-sm overflow-hidden">
+          <TouchableOpacity
+            onPress={() => router.push('/hero-profile')}
+            className="bg-white rounded-2xl shadow-sm overflow-hidden"
+          >
             <Image
               source={{ uri: featuredHero.image }}
               className="w-full h-48"
@@ -101,7 +106,10 @@ export default function HomeScreen() {
                 <Text className="text-gray-700 ml-1">{featuredHero.country}</Text>
               </View>
               <Text className="text-gray-600 text-sm mb-4" numberOfLines={3}>{featuredHero.description}</Text>
-              <TouchableOpacity className="bg-blue-500 py-3 rounded-xl items-center">
+              <TouchableOpacity
+                onPress={() => router.push('/hero-profile')}
+                className="bg-blue-500 py-3 rounded-xl items-center"
+              >
                 <Text className="text-white font-semibold">Read Full Story</Text>
               </TouchableOpacity>
             </View>
@@ -112,7 +120,7 @@ export default function HomeScreen() {
         <View className="mb-8">
           <View className="flex-row items-center justify-between mb-4">
             <Text className="text-gray-800 text-xl font-bold">Explore Categories</Text>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => router.push('/heroes-directory')}>
               <Text className="text-blue-500 font-medium">See All</Text>
             </TouchableOpacity>
           </View>
@@ -121,6 +129,7 @@ export default function HomeScreen() {
             {categories.map((category) => (
               <TouchableOpacity
                 key={category.id}
+                onPress={() => router.push('/heroes-directory')}
                 className="bg-white rounded-2xl p-5 items-center justify-center flex-1 min-w-[30%] shadow-sm"
               >
                 <Text className="text-2xl mb-2">{category.icon}</Text>
@@ -135,7 +144,7 @@ export default function HomeScreen() {
         <View className="mb-8">
           <View className="flex-row items-center justify-between mb-4">
             <Text className="text-gray-800 text-xl font-bold">Upcoming Events</Text>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => router.push('/news-updates')}>
               <Text className="text-blue-500 font-medium">View All</Text>
             </TouchableOpacity>
           </View>
@@ -144,6 +153,7 @@ export default function HomeScreen() {
             {upcomingEvents.map((event) => (
               <TouchableOpacity
                 key={event.id}
+                onPress={() => router.push('/news-updates')}
                 className="bg-white rounded-2xl p-4 flex-row items-center shadow-sm"
               >
                 <View className="bg-blue-100 rounded-xl p-3 mr-4">
@@ -163,19 +173,31 @@ export default function HomeScreen() {
         <View className="mb-8">
           <Text className="text-gray-800 text-xl font-bold mb-4">Quick Actions</Text>
           <View className="flex-row gap-4">
-            <TouchableOpacity className="bg-white rounded-2xl p-5 items-center flex-1 shadow-sm">
+            <TouchableOpacity
+              onPress={() => router.push('/quizzes')}
+              className="bg-white rounded-2xl p-5 items-center flex-1 shadow-sm"
+            >
               <Trophy color="#FFC107" size={32} />
               <Text className="text-gray-800 font-semibold mt-2">Quizzes</Text>
             </TouchableOpacity>
-            <TouchableOpacity className="bg-white rounded-2xl p-5 items-center flex-1 shadow-sm">
+            <TouchableOpacity
+              onPress={() => router.push('/learn-section')}
+              className="bg-white rounded-2xl p-5 items-center flex-1 shadow-sm"
+            >
               <BookOpen color="#4CAF50" size={32} />
               <Text className="text-gray-800 font-semibold mt-2">Learn</Text>
             </TouchableOpacity>
-            <TouchableOpacity className="bg-white rounded-2xl p-5 items-center flex-1 shadow-sm">
+            <TouchableOpacity
+              onPress={() => router.push('/interactive-map')}
+              className="bg-white rounded-2xl p-5 items-center flex-1 shadow-sm"
+            >
               <Users color="#2196F3" size={32} />
               <Text className="text-gray-800 font-semibold mt-2">Map</Text>
             </TouchableOpacity>
-            <TouchableOpacity className="bg-white rounded-2xl p-5 items-center flex-1 shadow-sm">
+            <TouchableOpacity
+              onPress={() => router.push('/heroes-directory')}
+              className="bg-white rounded-2xl p-5 items-center flex-1 shadow-sm"
+            >
               <Star color="#FF9800" size={32} />
               <Text className="text-gray-800 font-semibold mt-2">Favorites</Text>
             </TouchableOpacity>

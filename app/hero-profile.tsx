@@ -41,10 +41,10 @@ const heroData = {
   ],
   impact: "Mandela's impact on Africa and the world extends far beyond his presidency. His peaceful transition from prisoner to president prevented a civil war in South Africa and inspired countless movements for justice worldwide. His philosophy of reconciliation became a model for conflict resolution globally. Post-apartheid South Africa became a symbol of hope and progress, influencing democratic movements throughout Africa and beyond.\n\nHis legacy continues to inspire leaders around the world. The Nelson Mandela Foundation works to promote his values of freedom, democracy, and human rights. His birthday, July 18th, is celebrated as Mandela Day, encouraging people worldwide to take action for positive change.",
   images: [
-    'https://images.unsplash.com/photo-1629216509258-4dbd7880e605?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fDMlMjBncmFwaGljc3xlbnwwfHwwfHx8MA%3D%3D',
-    'https://images.unsplash.com/photo-1729179666011-38d13280b92f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fDMlMjBncmFwaGljc3xlbnwwfHwwfHx8MA%3D%3D',
-    'https://images.unsplash.com/photo-1517340073101-289191978ae8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fDMlMjBncmFwaGljc3xlbnwwfHwwfHx8MA%3D%3D',
-    'https://images.unsplash.com/photo-1608447718455-ed5006c46051?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8MyUyMGdyYXBoaWNzfGVufDB8fDB8fHww'
+    'https://tse2.mm.bing.net/th/id/OIP._jHrZ_Loev8LRdMNzzp4CwHaIV?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
+    'https://tse2.mm.bing.net/th/id/OIP.0sbkzyADayHjNnzqDf38PQHaF3?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
+    'https://tse4.mm.bing.net/th/id/OIP.BJFPlSvwRob5PF-yZa0WuQHaEK?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
+    'https://metro.co.uk/wp-content/uploads/2018/07/sei_22065867.jpg?quality=90&strip=all&zoom=1&resize=768%2C921'
   ]
 };
 
