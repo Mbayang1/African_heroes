@@ -23,19 +23,19 @@ const mockHeroes = [
     popularity: 98,
     dateAdded: '2023-01-15',
     description: 'Anti-apartheid revolutionary and political leader who served as President of South Africa.',
-    imageUrl: 'https://images.unsplash.com/photo-1564393333316-a1a043196554?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fDMlMjBncmFwaGljc3xlbnwwfHwwfHx8MA%3D%3D',
+    imageUrl: 'https://tse2.mm.bing.net/th/id/OIP._jHrZ_Loev8LRdMNzzp4CwHaIV?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
   },
   {
     id: '2',
-    name: 'Wangari Maathai',
-    country: 'Kenya',
-    countryCode: 'KE',
+    name: 'Lat Dior Ngoné Latyr Diop',
+    country: 'Senegal',
+    countryCode: 'SN',
     category: 'Environment',
     era: 'Contemporary',
     popularity: 87,
     dateAdded: '2023-02-20',
     description: 'Environmental and political activist known for founding the Green Belt Movement.',
-    imageUrl: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fHVzZXJ8ZW58MHx8MHx8fDA%3D',
+    imageUrl: 'https://tse1.mm.bing.net/th/id/OIP.F3DbQGGR9W_HNe6Ag_L7PQHaFJ?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
   },
   {
     id: '3',
@@ -47,7 +47,7 @@ const mockHeroes = [
     popularity: 92,
     dateAdded: '2023-03-10',
     description: 'First Prime Minister and President of Ghana, key figure in Pan-Africanism.',
-    imageUrl: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHVzZXJ8ZW58MHx8MHx8fDA%3D',
+    imageUrl: 'https://thisisafrica.me/wp-content/uploads/2022/09/Kwame-Nkrumah.jpg',
   },
   {
     id: '4',
@@ -59,7 +59,7 @@ const mockHeroes = [
     popularity: 89,
     dateAdded: '2023-04-05',
     description: 'Renowned novelist, poet, professor, and critic, author of Things Fall Apart.',
-    imageUrl: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHVzZXJ8ZW58MHx8MHx8fDA%3D',
+    imageUrl: 'https://tse2.mm.bing.net/th/id/OIP.dgnAacBIcC-RdqCmQKlnRQHaLH?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
   },
   {
     id: '5',
@@ -71,7 +71,7 @@ const mockHeroes = [
     popularity: 94,
     dateAdded: '2023-05-12',
     description: 'Queen mother of Ejisu and leader of the War of the Golden Stool against British colonialism.',
-    imageUrl: 'https://images.unsplash.com/photo-1578445714074-946b536079aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fFByb2Zlc3Npb25hbCUyMGF2YXRhciUyMHdpdGglMjBnbGFzc2VzfGVufDB8fDB8fHww',
+    imageUrl: 'https://tse2.mm.bing.net/th/id/OIP.R6OwLDOcfT0h7uapT_P6hgHaHa?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
   },
   {
     id: '6',
@@ -83,12 +83,12 @@ const mockHeroes = [
     popularity: 86,
     dateAdded: '2023-06-18',
     description: 'Internationally celebrated singer and civil rights activist known as Mama Africa.',
-    imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlcnxlbnwwfHwwfHx8MA%3D%3D',
+    imageUrl: 'https://images.squarespace-cdn.com/content/v1/5984394de6f2e181003b0dab/1551788898420-QOYY71I45IOOMLS5DO6O/Miriam+Makeba+-+Taste+of+Southern+Africa.jpg',
   },
 ];
 
 // Filter options
-const countries = ['All', 'Ghana', 'Kenya', 'Nigeria', 'South Africa', 'Egypt', 'Ethiopia'];
+const countries = ['All', 'Ghana', 'Senegal', 'Nigeria', 'South Africa', 'Egypt', 'Ethiopia'];
 const categories = ['All', 'Politics', 'Arts', 'Science', 'Religion', 'Sports', 'Environment'];
 const eras = ['All', 'Pre-Colonial', 'Post-Independence', 'Contemporary'];
 const sortOptions = [

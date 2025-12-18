@@ -196,15 +196,6 @@ export default function HeroProfileScreen() {
           />
         </View>
 
-        {/* Video Section */}
-        <View className="bg-white rounded-2xl mx-4 p-5 my-4 shadow-sm mb-6">
-          <Text className="text-gray-800 text-xl font-bold mb-3">Documentary</Text>
-          <TouchableOpacity className="bg-gray-900 rounded-xl h-48 items-center justify-center relative">
-            <Play size={48} color="#FFF" fill="#FFF" />
-            <Text className="text-white text-lg mt-2">Watch Documentary</Text>
-            <View className="absolute inset-0 bg-black bg-opacity-30 rounded-xl" />
-          </TouchableOpacity>
-        </View>
       </ScrollView>
     </View>
   );

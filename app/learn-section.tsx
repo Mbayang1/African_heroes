@@ -20,7 +20,7 @@ const kingdomsData = [
     period: '1070 BCE - 350 CE',
     location: 'Northern Sudan',
     description: 'An ancient kingdom located in Nubia, along the Nile River. Known for their advanced ironworking and as rivals to Egypt.',
-    imageUrl: 'https://images.unsplash.com/photo-1540414796556-d2b7d9be5022?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SGlzdG9yaWNhbCUyMGxhbmRtYXJrJTIwc2lnaHRzZWVpbmd8ZW58MHx8MHx8fDA%3D',
+    imageUrl: 'https://tse3.mm.bing.net/th/id/OIP.8TqJB-G3W3muNmHrVGXIGgHaE7?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
   },
   {
     id: '2',
@@ -28,7 +28,7 @@ const kingdomsData = [
     period: '3100 BCE - 30 BCE',
     location: 'Northeastern Africa',
     description: 'One of the world\'s earliest civilizations, known for pyramids, hieroglyphics, and pharaohs.',
-    imageUrl: 'https://images.unsplash.com/photo-1608447718455-ed5006c46051?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8MyUyMGdyYXBoaWNzfGVufDB8fDB8fHww',
+    imageUrl: 'https://th.bing.com/th/id/R.e13de4d3c70af74eff9f1026617992b4?rik=e%2f8hyjobQVemyQ&pid=ImgRaw&r=0',
   },
   {
     id: '3',
@@ -36,7 +36,7 @@ const kingdomsData = [
     period: '100 - 940 CE',
     location: 'Northern Ethiopia/Eritrea',
     description: 'A major trading empire that controlled the Red Sea trade routes between Rome and Ancient India.',
-    imageUrl: 'https://images.unsplash.com/photo-1640350168509-756f1ef84b37?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QXJ0JTIwZ2FsbGVyeSUyMGV4aGliaXRpb258ZW58MHx8MHx8fDA%3D',
+    imageUrl: 'https://tse4.mm.bing.net/th/id/OIP.W9DhnulNTzvUOT0nVReYLgHaEK?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
   },
   {
     id: '4',
@@ -44,7 +44,7 @@ const kingdomsData = [
     period: '300 - 1200 CE',
     location: 'Southeast Mauritania/West Mali',
     description: 'Known as the "Land of Gold", it was the first great medieval trading empire of West Africa.',
-    imageUrl: 'https://images.unsplash.com/photo-1577086664693-894d8405334a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1hcHxlbnwwfHwwfHx8MA%3D%3D',
+    imageUrl: 'https://tse1.mm.bing.net/th/id/OIP.R7SI29DJuqW18j-O8Qm09wHaFi?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3',
   },
 ];
 

@@ -20,7 +20,7 @@ export default function HomeScreen() {
     name: "Nelson Mandela",
     title: "Anti-Apartheid Revolutionary",
     country: "South Africa",
-    image: "https://images.unsplash.com/photo-1540414796556-d2b7d9be5022?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SGlzdG9yaWNhbCUyMGxhbmRtYXJrJTIwc2lnaHRzZWVpbmd8ZW58MHx8MHx8fDA%3D",
+    image: "https://tse2.mm.bing.net/th/id/OIP._jHrZ_Loev8LRdMNzzp4CwHaIV?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3",
     description: "Nelson Rolihlahla Mandela was a South African anti-apartheid revolutionary, political leader, and philanthropist who served as President of South Africa from 1994 to 1999."
   };
 

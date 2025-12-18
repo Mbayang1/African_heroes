@@ -6,9 +6,9 @@ import { Bookmark, Trophy, Book, Clock, ArrowLeft } from 'lucide-react-native';
 // Mock data for favorites
 const mockFavorites = {
   heroes: [
-    { id: 1, name: 'Queen Amina', region: 'West Africa', era: '16th Century', image: 'https://example.com/amina.jpg' },
-    { id: 2, name: 'Mansa Musa', region: 'West Africa', era: '14th Century', image: 'https://example.com/mansa.jpg' },
-    { id: 3, name: 'Shaka Zulu', region: 'Southern Africa', era: '19th Century', image: 'https://example.com/shaka.jpg' },
+    { id: 1, name: 'Queen Amina', region: 'West Africa', era: '16th Century', image: 'https://ichef.bbci.co.uk/news/1024/branded_news/1172B/production/_102676417_mediaitem102676416.jpg' },
+    { id: 2, name: 'Mansa Musa', region: 'West Africa', era: '14th Century', image: 'https://magazine.northwestern.edu/assets/2019/Spring/6dd846b396/mansa-musa__ScaleMaxWidthWzEyOTBd.jpg' },
+    { id: 3, name: 'Shaka Zulu', region: 'Southern Africa', era: '19th Century', image: 'https://cdn.thecollector.com/wp-content/uploads/2024/01/shaka-zulu-life.jpg' },
   ],
   articles: [
     { id: 1, title: 'The Great Mali Empire', readTime: '5 min', date: '2024-01-15' },

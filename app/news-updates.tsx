@@ -23,17 +23,17 @@ const { width: SCREEN_WIDTH } = Dimensions.get('window');
 const newHeroes = [
   {
     id: 1,
-    name: "Dr. Wangari Maathai",
+    name: "Aline Sitoe Diatta",
     category: "Environmental Activist",
     date: "Added today",
-    image: "https://images.unsplash.com/photo-1640350168509-756f1ef84b37?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+    image: "https://pics.craiyon.com/2023-11-13/Iz6ogfPRTgiO8dMi2aA6XQ.webp",
   },
   {
     id: 2,
     name: "Thomas Sankara",
     category: "Revolutionary Leader",
     date: "Added yesterday",
-    image: "https://images.unsplash.com/photo-1540414796556-d2b7d9be5022?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+    image: "https://images.saymedia-content.com/.image/t_share/MTkwOTEwMDc4MTQ3MTEwNDg1/thomas-sankara-the-amazing-man-who-was-killed-for-acting-on-his-vision-for-africa.jpg",
   },
 ];
 
@@ -62,14 +62,14 @@ const culturalNews = [
     title: "Great Zimbabwe Monument Restoration Project Begins",
     category: "Heritage",
     date: "2 hours ago",
-    image: "https://images.unsplash.com/photo-1540414796556-d2b7d9be5022?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+    image: "https://cdn.thestandard.co.zw/images/thestandard/uploads/2022/10/DWJgK9cIgX54yIf2a4qf4HLNwMSQT7YwbBJd3UZW.jpg",
   },
   {
     id: 2,
     title: "Ancient Egyptian Artifacts Exhibition Opens in Nairobi",
     category: "Arts & Culture",
     date: "1 day ago",
-    image: "https://images.unsplash.com/photo-1640350168509-756f1ef84b37?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+    image: "https://img.freepik.com/premium-photo/ancient-egyptian-artifacts-exhibit-museum_616001-41245.jpg",
   },
 ];
 
